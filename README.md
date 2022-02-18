@@ -1,10 +1,12 @@
 # Typescript React Component Library Starter
 
-We couldn't find a component library starter with all the things we wanted, so we made one.  Features:
+We couldn't find a component library starter with all the things we wanted, so we made one.  Essentially, we wanted to be able to rapidly develop components within the library (with all the benefits of a hot-reloading dev server); but we also wanted to be able to release those components as a library that can be consumed in other React projects.
+
+Features:
 
 * Rollup for building the library (`npm run build`)
-* Webpack for hot reloading and live dev (`npm run start`)
-* React, typescript, and material ui are all installed
+* Webpack for hot reloading in local development (`npm run start`)
+* React, typescript, and material ui are all pre-installed as peer dependencies (the assumption is that you'll be using this library in a project that has these installed).
 
 # Getting started
 
